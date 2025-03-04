@@ -1,0 +1,8 @@
+# List all branches
+git branch -a
+
+# Create a branch
+git branch "branch name"
+
+# Switch to another branch
+git checkout "branch name"
