@@ -1,0 +1,47 @@
+/* Element Selector */
+span{
+    color: blue;
+    background-color: aqua;
+}
+
+/* Class Selector */
+.intro-paragraphs{
+    color: white;
+    background-color: red;
+}
+
+/* ID Selector */
+#main-heading{
+    color: white;
+    background-color: blue;
+}
+
+/* Universal Selector */
+*{
+    background-color: slateblue;
+    font-family: cursive;
+}
+
+/* Grouping Selector */
+h1, h2, .about-content{
+    color: orange;
+}
+
+/* Descendant Selector */
+.article-container p{
+    color: maroon;
+}
+
+/* Pseudo-classes */
+a:link{
+    color: purple;
+}
+a:hover{
+    background-color: black;
+}
+a:active{
+    font-size: 30px;
+}
+a:visited{
+    color: blue;
+}

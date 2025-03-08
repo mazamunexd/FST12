@@ -1,0 +1,64 @@
+/* Padding */
+.box1{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+/* Padding Shorthand */
+/* 1 value - all sides */
+/* 2 value - top bottom / left right */
+/* 3 value - top / left right / bottom */
+/* 4 value - top / left / right / bottom */
+.box2{
+    padding: 10px;
+    padding: 10px 20px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px 30px 40px;
+}
+
+/* Margin */
+.box3{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+/* Margin Shorthand */
+/* 1 value - all sides */
+/* 2 value - top bottom / left right */
+/* 3 value - top / left right / bottom */
+/* 4 value - top / left / right / bottom */
+.box4{
+    margin: 10px;
+    margin: 10px 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px;
+}
+
+/* Border */
+/* 1 value - all sides */
+/* 2 value - top bottom / left right */
+/* 3 value - top / left right / bottom */
+/* 4 value - top / left / right / bottom */
+.mix-borders{
+    height: 100px;
+    width: 200px;
+    border-style: double;
+    /* solid dashed dotted double */
+    border-color: black green red blue;
+    border-width: 2px 4px 6px 8px;
+
+    /* Shorthand Version */
+    border: black double 10px;
+}
+
+/* Circle Container */
+.circle-container{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
